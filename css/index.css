@@ -93,6 +93,9 @@ ul {
   margin-bottom: 31px;
   font-size: 72px;
 }
+#title-section .text-title h3 span {
+  font-weight: 300;
+}
 #title-section .text-title p {
   font-size: 17px;
 }
@@ -136,3 +139,73 @@ ul {
   font-size: 18px;
   color: #606060;
 }
+/* section2 */
+#section2 .title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#section2 .title h2 {
+  margin-bottom: 95px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0352ff;
+}
+
+#section2 .skills-box::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+#section2 .skills-box .skills-inner {
+  float: left;
+  width: 380px;
+  margin-right: 50px;
+  margin-bottom: 55px;
+  border: 0.2px solid #41414142;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px 0px #4141410e;
+  position: relative;
+}
+#section2 .skills-box .skills-inner:nth-child(3n) {
+  margin-right: 100px;
+}
+#section2 .skills-box .skills-inner:nth-child(4) {
+  margin-left: 100px;
+}
+#section2 .skills-box .skills-inner:nth-child(1) {
+  margin-left: 100px;
+}
+#section2 .skills-box .skills-inner:nth-child(n + 4):nth-child(-n + 6) {
+  margin-bottom: 0;
+}
+#section2 .skills-box .skills-inner h2 {
+  margin-bottom: 25px;
+  padding-top: 65px;
+  padding-left: 35px;
+}
+#section2 .skills-box .skills-inner p {
+  margin-bottom: 40px;
+  padding: 0 35px;
+}
+#section2 .skills-box .skills-inner .skills-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #e6eeff;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  left: 35px;
+}
+#section2 .skills-box .skills-inner .skills-circle img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px;
+  height: 32px;
+  filter: invert(28%) sepia(98%) saturate(7497%) hue-rotate(223deg) brightness(105%) contrast(102%);
+}
+/* section3 */
