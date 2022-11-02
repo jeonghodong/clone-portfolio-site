@@ -70,6 +70,7 @@ ul {
   justify-content: center;
   align-items: center;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%);
   /*  */
   left: 50%;
   transform: translateX(-50%);
@@ -99,17 +100,6 @@ ul {
 #title-section .text-title p {
   font-size: 17px;
 }
-#title-section .container .circle {
-  width: 165px;
-  height: 165px;
-  background-color: rgb(219, 168, 168);
-  border-radius: 50%;
-  border: #0352ff solid 5px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10%;
-}
 /* section1 */
 #section1 .container {
   margin-top: 122px;
@@ -118,6 +108,18 @@ ul {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+#section1 .container .circle {
+  width: 165px;
+  height: 165px;
+  background-color: rgb(219, 168, 168);
+  border-radius: 50%;
+  border: #0352ff solid 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 27rem;
+  z-index: 0;
 }
 #section1 .container .text-title {
   width: 100%;
