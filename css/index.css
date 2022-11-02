@@ -118,7 +118,7 @@ ul {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 27rem;
+  bottom: -9rem;
   z-index: 0;
 }
 #section1 .container .text-title {
