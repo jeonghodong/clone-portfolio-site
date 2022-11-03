@@ -213,8 +213,6 @@ ul {
   filter: invert(28%) sepia(98%) saturate(7497%) hue-rotate(223deg) brightness(105%) contrast(102%);
 }
 /* section3 */
-#section3 .container {
-}
 #section3 .title {
   margin-top: 100px;
   display: flex;
