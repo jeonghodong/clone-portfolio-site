@@ -162,6 +162,7 @@ ul {
   clear: both;
   display: block;
 }
+
 #section2 .skills-box .skills-inner {
   float: left;
   width: 380px;
@@ -212,3 +213,50 @@ ul {
   filter: invert(28%) sepia(98%) saturate(7497%) hue-rotate(223deg) brightness(105%) contrast(102%);
 }
 /* section3 */
+#section3 .container {
+}
+#section3 .title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#section3 .title h2 {
+  margin-bottom: 59px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0352ff;
+}
+#section3 .folio_box .folio_inner {
+  width: 380px;
+  height: 285px;
+  background-color: #ccc;
+  margin-bottom: 1rem;
+}
+#section3 .folio_box .folio_inner button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 286px;
+  height: 81px;
+  background-color: #4e86ff;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+#section3 .folio_box {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  column-gap: 50px;
+  row-gap: 55px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#section3 .folio_box .folio_inner:last-child {
+  background-color: white;
+  position: relative;
+}
