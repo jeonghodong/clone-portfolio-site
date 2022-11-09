@@ -436,6 +436,7 @@ ul {
   padding: 1rem;
   background-color: #f7f7f7;
   border: solid 0.5px hsla(300, 60%, 17%, 0.253);
+  font-family: "Poppins", sans-serif;
 }
 #section4 .contact-right input {
   padding: 1rem;
